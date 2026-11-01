@@ -8,7 +8,7 @@ import pandas as pd
 import pandas as pd
 from PIL import Image
 st.title("INDIAN PREMIER LEAGUE")
-mg=Image.open(r"c:\Users\gjaya\Downloads\ipl image.png")
+mg=Image.open(r"ipl image.png")
 st.image(mg,caption="IPLT20")
 if st.checkbox("KINDLY VERIFY"):
     st.success("YOU ARE VERIFIED")
@@ -106,7 +106,7 @@ st.write("2026 CHAMPIONS")
 st.video(r"D:\streamlit tutorial\video\RCB_2026.mp4")
 st.sidebar.title("INDIAN PREMIER LEAGUE")
 st.sidebar.write("THE 2026 CHAMPIONS")
-image2=st.sidebar.image(r"c:\Users\gjaya\Downloads\rcb.jpg")
+image2=st.sidebar.image(r"rcb.jpg")
 #UP=st.file_uploader("Upload only the csv file",type=['CSV'])
 
 #import time
@@ -116,6 +116,6 @@ image2=st.sidebar.image(r"c:\Users\gjaya\Downloads\rcb.jpg")
     #my_bar.progress(i+1)
 if st.button("Click this"):
     st.text("The captains")
-    st.image(r"C:\Users\gjaya\Downloads\captains.jpg") 
+    st.image(r"captains.jpg") 
 
 
