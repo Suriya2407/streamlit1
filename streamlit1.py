@@ -102,8 +102,6 @@ box=st.selectbox("CHOOSE YOUR TEAM",["CSK","RCB","MI","RR","KKR","GT","KXIP","SR
 st.write("your selected team is",box)
 ch=st.radio("YOUR FAVOURITE AMONG THESE FOUR",["RCB","CSK","MI","SRH"])
 st.write("your favourite one is",ch)
-st.write("2026 CHAMPIONS")
-st.video(r"D:\streamlit tutorial\video\RCB_2026.mp4")
 st.sidebar.title("INDIAN PREMIER LEAGUE")
 st.sidebar.write("THE 2026 CHAMPIONS")
 image2=st.sidebar.image(r"rcb.jpg")
